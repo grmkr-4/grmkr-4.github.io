@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Two New HTML Elements Test</title>
+    <meta charset="utf-8">
+</head>
+<body>
+
+<p>Test1: Here is my first <b>example</b>.</p>
+<p>Test2: Here is my second <mark>example</mark>.</p>
+    
+</body>
+</html>
