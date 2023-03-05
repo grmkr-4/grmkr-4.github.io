@@ -1,2 +1,99 @@
-#H1
-{color:#0033ff;}
+/* ColorsWebsite Colors: 
+#000000 -Black
+#FFFFFF-White
+#808080 Gray
+#666666 - Darker gray 
+#D0D0D0 – light gray 
+#66b2b2 - Brighter teal 
+#008080 -teal
+#006666 -Darker teal
+#004c4c -Darkest shade of teal
+ 
+#F1F1F1 - Beige 
+#F2F2F2 - Darker beige
+Font-family will be: Garmond, Raleway, Sans-serif.
+/****************************************GLOBAL********************************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora&family=Playfair+Display&family=Raleway:ital,wght@0,100;0,700;1,300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+ /* box-sizing: border-box;*/
+}
+
+
+body {
+  background-color: #f1f1f1;
+  color: #666666;
+  font-size: 16px;
+  width: 100vw;
+  font-family: 'Lora', sans-serif;
+}
+
+p, h1, h2, h3, h4, blockquote, .about_img, video{
+  margin: 0 250px;
+  padding: 10px;
+  border: none;
+}
+
+/**************************************HOME PAGE***************************/
+#home-header {
+  text-align: center;
+}
+
+
+/**************************************ABOUT PAGE****************************/
+
+.about_img {
+  float: right;
+  margin-right: 5em;
+  border-radius: 30px;
+  padding: 15px;
+  }
+
+.resume_button {
+  background-color: #808080;
+  color: white;
+  padding: 10px;
+  margin-left: 260px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: 20px;
+  border: 5px outset gray;
+  font-weight: 400px;
+}
+
+
+
+/**************************************MAIN Projects/Competencies page****************************/
+
+
+/**************************************Competency #1****************************/
+
+
+/**************************************Competency #2****************************/
+
+
+/**************************************Competency #3****************************/
+
+/**************************************Reflection Page****************************/
+#header1 {
+  text-align: center;
+  }
+
+  h4 {
+    font-size: 130%;
+  }
+
+  .para1::first-letter  {
+  font-size: 175%;
+  color: #004c4c;
+}
+
+.indent {
+  text-indent: 2.5%;
+}
+
+/**************************************CONTACT****************************/
