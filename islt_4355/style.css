@@ -37,13 +37,13 @@ p, h1, h2, h3, h4, blockquote, .about_img, video{
   border: none;
 }
 
-/**************************************HOME PAGE***************************/
+/**HOME PAGE**/
 #home-header {
   text-align: center;
 }
 
 
-/**************************************ABOUT PAGE****************************/
+/**ABOUT PAGE**/
 
 .about_img {
   float: right;
@@ -67,18 +67,18 @@ p, h1, h2, h3, h4, blockquote, .about_img, video{
 
 
 
-/**************************************MAIN Projects/Competencies page****************************/
+/**MAIN Projects/Competencies page**/
 
 
-/**************************************Competency #1****************************/
+/**Competency #1**/
 
 
-/**************************************Competency #2****************************/
+/**Competency #2**/
 
 
-/**************************************Competency #3****************************/
+/**Competency #3**/
 
-/**************************************Reflection Page****************************/
+/**Reflection Page**/
 #header1 {
   text-align: center;
   }
@@ -96,4 +96,4 @@ p, h1, h2, h3, h4, blockquote, .about_img, video{
   text-indent: 2.5%;
 }
 
-/**************************************CONTACT****************************/
+/**CONTACT**/
