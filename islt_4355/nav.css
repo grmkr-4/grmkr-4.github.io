@@ -116,7 +116,7 @@ nav li:hover .dropdown > li {
 footer {
   background-color: light gray;
   color: white;
-  padding: 80px;
+  padding: 10px;
   text-align: center;
   bottom: 0;
 }
