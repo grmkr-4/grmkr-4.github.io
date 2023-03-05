@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
-<link href="style.css" rel="stylesheet">
-<link href="nav.css" rel="navigation">
-<!--
-
-Title: 
-
-Use: 
-
-Author:
-
-School/Term: 
-
-Developed:
-
-Tested: 
-
+<!--Title: Grayson Manalang Mueller portfolio home page
+Use:Greet Users
+Author: Grayson Manalang Mueller
+School/Term:  University of Missouri, Spring 2023
+Developed: updated March 5, 2023
+Tested: March 5, 2023
 -->
-               <link rel="stylesheet" href="style.css">
                <meta charset="utf-8">
-               <title>Grayson's Home Page</title>
-               <!--Comment Header-->
+    <title>Home Page</title>
+    <link href="nav.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
 </head>
+<body>
 <header>
     <h1 id="H1">Home Page</h1>
-    <nav></nav>
+    <h2><b>Grayson Manalang Mueller</b></h2>
+    <h3>Welcome!</h3>
 </header>
-<h2><b>Grayson Manalang Mueller</b></h2>
-<h3>Welcome!</h3>
-<body>
-<nav>
-            <a href="https://grmkr-4.github.io/islt_4355/index.html">Home</a> |
-            <a href="https://grmkr-4.github.io/islt_4355/about.html">About</a> |
-            <a href="#/projects.html">Projects</a> |
-</nav>
+  <nav>
+      <div class="logo">
+        <a href="index.html"><img src="ApTlogoCropped.png" alt="logo" width="250"></a>
+      </div>
+            <ul class="menu">
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="#projects.html">Projects<ion-icon name="caret-down-outline"></ion-icon></a>
+                  <ul class="dropdown">
+                      <li><a href="#">Link #1</a></li>
+                      <li><a href="#">Link #2</a></li>
+                      <li><a href="#">Link #3</a></li>
+                   </ul>
+                </li>
+              <li><a href="reflection.html">Reflection</a></li>
+              <li><a href="#contact.html">Contact</a></li>
+           </ul>
+    </nav>
 <main>
     <p>
         Hello and welcome to my website! I am so glad you stopped by! The purpose and objective of this website is to professionally showcase myself to 
@@ -43,10 +46,12 @@ Tested:
         free to navigate yourself and if you have any sort of questions, feel free to reach out to me! Thank you again, for stopping by! 
     </p>
 </main>
-<footer>
-    <p>Grayson Manalang Mueller</p>
-    <p><a href="mailto:grmkr4@umsystem.edu">grmkr4@umsystem.edu</a></p>
-    <p>&copy; Copyright 2023 All Rights Reserved.</p>
-</footer>
-</body>
+  
+  <!--FOOTER-->
+    <footer>
+      <p>&copy; Grayson Manalang Mueller</p>
+      <p>grmkr4@umsystem.edu</p>
+      <p>&copy; Copyright 2023 All Rights Reserved.</p>
+    </footer>
+  </body>
 </html>
