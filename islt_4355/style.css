@@ -92,8 +92,8 @@ p, h1, h2, h3, h4, blockquote, .about_img, video{
   }
 
   .para1::first-letter  {
-  font-size: 175%;
-  color: #004c4c;
+  font-size: 180%;
+  color: #6c533c;
 }
 
 .indent {
