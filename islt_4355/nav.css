@@ -68,7 +68,7 @@ nav a:hover {
 }
 
 nav a:active {   /*THIS IS NOT WORKING WILL NEED TO FIX IT AT SOME POINT*/
-  color: #008080;
+  color: black;
   text-decoration: underline;
 }
 
