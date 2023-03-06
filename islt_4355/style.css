@@ -27,13 +27,13 @@ p, h1, h2, h3, h4, blockquote, .about_img {
 }
 
 .home_main {
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
-  padding: 0 2em;
+  padding: 0 1em;
 }
 #home_header {
   text-align: center;
-  padding: 1em;
+  padding: 2em;
 }
 
 
