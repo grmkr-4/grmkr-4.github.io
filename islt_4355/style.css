@@ -31,7 +31,7 @@ body {
   font-family: 'Lora', sans-serif;
 }
 
-p, h1, h2, h3, h4, blockquote, .about_img, video{
+p, h1, h2, h3, h4, blockquote, .about_img {
   margin: 0 250px;
   padding: 10px;
   border: none;
