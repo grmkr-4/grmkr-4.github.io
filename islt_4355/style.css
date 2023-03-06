@@ -21,13 +21,13 @@ p, h1, h2, h3, h4, blockquote, .about_img {
   border: none;
 }
 
-/**HOME PAGE**/
+/**Index/Home Page**/
 #H1 {
   text-align: left;
 }
 
 
-/**ABOUT PAGE**/
+/**About Page**/
 
 .about_img {
   float: center;
@@ -51,16 +51,8 @@ p, h1, h2, h3, h4, blockquote, .about_img {
 
 
 
-/**MAIN Projects/Competencies page**/
+/**Projects Page**/
 
-
-/**Competency #1**/
-
-
-/**Competency #2**/
-
-
-/**Competency #3**/
 
 /**Reflection Page**/
 #header1 {
@@ -80,4 +72,4 @@ p, h1, h2, h3, h4, blockquote, .about_img {
   text-indent: 2.5%;
 }
 
-/**CONTACT**/
+/**Contact Page**/
