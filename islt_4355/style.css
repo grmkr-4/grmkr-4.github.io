@@ -26,6 +26,16 @@ p, h1, h2, h3, h4, blockquote, .about_img {
   text-align: left;
 }
 
+.home_main {
+  width: 90%;
+  margin: 0 auto;
+  padding: 0 2em;
+}
+#home_header {
+  text-align: center;
+  padding: 1em;
+}
+
 
 /**About Page**/
 
