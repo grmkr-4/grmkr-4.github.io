@@ -54,9 +54,6 @@ p, h1, h2, h3, h4, blockquote, .about_img, video{
 
 .about_video {
   float: center;
-  margin-right: 5em;
-  border-radius: 30px;
-  padding: 15px;
   }
 
 .resume_button {
