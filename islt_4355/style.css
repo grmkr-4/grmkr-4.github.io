@@ -1,20 +1,4 @@
-/* ColorsWebsite Colors: 
-#000000 -Black
-#FFFFFF-White
-#808080 Gray
-#666666 - Darker gray 
-#D0D0D0 – light gray 
-#66b2b2 - Brighter teal 
-#008080 -teal
-#006666 -Darker teal
-#004c4c -Darkest shade of teal
- 
-#F1F1F1 - Beige 
-#F2F2F2 - Darker beige
-Font-family will be: Garmond, Raleway, Sans-serif.
-/****************************************GLOBAL********************************************/
 
-@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Lora&family=Playfair+Display&family=Raleway:ital,wght@0,100;0,700;1,300&display=swap');
 
 * {
   margin: 0;
