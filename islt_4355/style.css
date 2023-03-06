@@ -30,11 +30,15 @@ p, h1, h2, h3, h4, blockquote, .about_img {
 /**About Page**/
 
 .about_img {
-  float: center;
-  margin-right: 30em;
-  border-radius: 30px;
-  padding: 15px;
-  }
+ float: center;
+ width: auto;
+ height: auto;
+ max-width: 400px;
+ min-width: 200px;
+ padding-top: 5%;
+margin-top: 2rem;
+margin-bottom: 1em;
+}
 
 .resume_button {
   background-color: #808080;
