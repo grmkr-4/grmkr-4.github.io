@@ -10,9 +10,8 @@
 }
 
 
-/******************MAIN NAVIGATION************************/
-
-nav {   /****This is what makes the links go to the right ****/
+/**Header Nav**/
+nav {   /**Right Side Links**/
   padding: 2em;
   display: flex;
   align-items: center;
@@ -21,7 +20,7 @@ nav {   /****This is what makes the links go to the right ****/
   margin-bottom: 75px;
 }
 
-nav a {  /****Adjusts links padding and margin and needs to be there****/
+nav a {  /**Link Padding and Margin**/
   display: flex;
   margin: 5px;
   padding: 10px;
@@ -31,18 +30,18 @@ nav a {  /****Adjusts links padding and margin and needs to be there****/
 }
 
 a {
-  text-decoration: none; /****Removed line from links****/
+  text-decoration: none; /**Underline to Link is removed**/
 }
 
 
-.menu {  /****Makes links align horizontal takes off line and bullet****/
+.menu {  /**Horizontal link**/
   display: flex;
   text-decoration: none;
   list-style: none;
 }
 
 
-.logo {  /***This together with nav is what makes logo go to left and links go to right*****/
+.logo {  /**Left Side Logo**/
   flex: 1;
   width: 250px;
 }
@@ -51,15 +50,13 @@ nav a:hover {
   color: black;
 }
 
-nav a:active {   /*THIS IS NOT WORKING WILL NEED TO FIX IT AT SOME POINT*/
+nav a:active { 
   color: black;
   text-decoration: underline;
 }
 
 
-/********************Dropdown Navigation************************/
-
-
+/**Dropdown Nav**/
 .menu {
   display: flex;
 }
@@ -94,9 +91,7 @@ nav li:hover .dropdown > li {
   color: black;
 }
 
-
-
-/**************************************FOOTER****************************/
+/**Footer**/
 footer {
   background-color: light gray;
   color: black;
