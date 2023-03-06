@@ -31,7 +31,7 @@ p, h1, h2, h3, h4, blockquote, .about_img {
 
 .about_img {
   float: center;
-  margin-right: 15em;
+  margin-right: 30em;
   border-radius: 30px;
   padding: 15px;
   }
