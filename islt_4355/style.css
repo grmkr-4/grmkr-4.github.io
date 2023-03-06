@@ -46,7 +46,7 @@ p, h1, h2, h3, h4, blockquote, .about_img, video{
 /**ABOUT PAGE**/
 
 .about_img {
-  float: center;
+  float: right;
   margin-right: 5em;
   border-radius: 30px;
   padding: 15px;
