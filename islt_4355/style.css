@@ -55,12 +55,19 @@ p, h1, h2, h3, h4, blockquote, .about_img {
 
 
 /**Reflection Page**/
+.reflection_main {
+  width: 90%;
+  max-width: 1024;
+  margin: 0 auto;
+  padding: 0 6em;
+}
+
 #header1 {
   text-align: center;
   }
 
   h4 {
-    font-size: 130%;
+    font-size: 125%;
   }
 
   .para1::first-letter  {
