@@ -52,10 +52,6 @@ p, h1, h2, h3, h4, blockquote, .about_img, video{
   padding: 15px;
   }
 
-.about_video {
-  float: center;
-  }
-
 .resume_button {
   background-color: #808080;
   color: white;
