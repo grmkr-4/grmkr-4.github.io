@@ -29,8 +29,8 @@ nav a {  /**Link Padding and Margin**/
   font-size: 18px;
 }
 
-a {
-  text-decoration: none; /**Underline to Link is removed**/
+a {      /**Underline to Link is removed**/
+  text-decoration: none; 
 }
 
 
