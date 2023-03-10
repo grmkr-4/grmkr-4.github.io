@@ -108,7 +108,7 @@ margin-bottom: 1em;
 /**Media Queries**/
 
 
-@media only screen and (min-width: 360px) {
+@media screen and (min-width: 760px)  {
   .about_header {
    text-align:center;
    width: 100%
