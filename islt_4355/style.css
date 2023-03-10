@@ -94,3 +94,39 @@ margin-bottom: 1em;
 }
 
 /**Contact Page**/
+
+
+
+
+
+/**Media Queries**/
+
+
+@media only screen and (min-width: 360px) {
+  .about_header {
+   text-align:center;
+   width: 100%
+  }
+  
+  .about_img {
+    width: 100%;
+    margin: auto;
+    margin-bottom: 5%
+  }
+ video {
+    width: 100%;
+  }
+
+  .about_para {
+    margin: 0 auto;
+    width: 100%;
+    padding: 0;
+  }
+
+  .about_button {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 20%;
+  }
+}
