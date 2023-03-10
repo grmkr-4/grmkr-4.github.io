@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en-US">
-<head>
-   <!--
+  <head>
+    <!--
 Title: Grayson Manalang Mueller about page 
 Use: Users to get to know me
 Author: Grayson Manalang Mueller
@@ -9,22 +9,24 @@ School/Term:  Mizzou Spring 2023
 Developed: Updated March 5th, 2023
 Tested:March 5th, 2023
  -->
-<meta charset="utf-8">
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>About Me</title>
     <link href="nav.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
   </head>
-<body>
-  <div class="about_container">
-     <nav class="about_menu">
+
+  <body class="about-body"> 
+
+        <!--******************Navigation************************-->
+        <nav>
           <div class="logo">
             <a href="index.html"><img src="GM.png" alt="logo" width="150" height="150"></a>
           </div>
                 <ul class="menu">
                   <li><a href="index.html">Home</a></li>
                   <li><a href="about.html">About</a></li>
-                  <li><a href="project.html">Projects</a>
+                  <li><a href="#projects.html">Projects<ion-icon name="caret-down-outline"></ion-icon></a>
                       <ul class="dropdown">
                           <li><a href="#">Link #1</a></li>
                           <li><a href="#">Link #2</a></li>
@@ -35,45 +37,68 @@ Tested:March 5th, 2023
                   <li><a href="#contact.html">Contact</a></li>
                </ul>
         </nav>
-<header>
-    <h1>About Page</h1>
-</header>
-<h2><b>Grayson Manalang Mueller</b></h2>
-<h3>Welcome!</h3>
-<body>   
-<main>
-<div class="about_para">
-<p style="text-indent: 25px;">
-    Hey everybody, it's great meeting you all! My name is Grayson Mueller. I am a senior graduating in May. I am studying economics and business.
-    My other areas of interest include technology, insurance, and analytics. I will be working towards completing a dual degree program in Kansas City.
-    I want to use those degrees to become a data scientist. In relation to this course, I am new to web development and am an eager learner!
-    HTML and CSS are important skills to have while working in the data analytics space. This class will help me create working websites and further
-    build my portfolio. These websites will help me share my personal side projects with those who are interested and expand my network.
-    Some of my outside hobbies include reading, working out, playing basketball, and watching my favorite show, King of Queens.
-</p>
-    <blockquote cite="https://skyprep.com/2013/07/29/15-inspiration-learning-and-training-quotes/">
-        <b>"For the things we have to <em>learn</em> before we can do them, we <em>learn</em> by doing them.” --Aristotle</b>
-        </blockquote>
-<h3>Thanks for Stopping By!</h3>
-   
-<h1><a href="https://grmkr-4.github.io/islt_4355/G_Resume.pdf" class="resume_button"> Resume </a></h1>
-   
-   <div class="about_video">
-      <center>
+    
+        <!--******************HEADER************************-->
+    <header>
+      <h2 class="about_header">About Page</h2>
+    </header>
+        <!--******************MAIN************************-->
+    <main class="about-main">
+      <img src="Grayson_Headshot.jpg" alt="Grayson's Headshot"  class="about_img">
+
+      <div class="about_para">
+        <h1>Hello</h1> <br>
+        <p>
+          Hey everybody, it's great meeting you all! My name is Grayson Mueller. I am a senior graduating in May. 
+          I am studying economics and business. My other areas of interest include technology, insurance, and analytics.
+          I will be working towards completing a dual degree program in Kansas City. I want to use those degrees to become a data scientist.
+          In relation to this course, I am new to web development and am an eager learner! HTML and CSS are important skills to
+          have while working in the data analytics space. This class will help me create working websites and further
+          build my portfolio. These websites will help me share my personal side projects with those who are interested and expand my network.
+          Some of my outside hobbies include reading, working out, playing basketball, and watching my favorite show, King of Queens.
+        </p>
+      <br>
+      <blockquote>
+        "<em
+          >For the things we have to <em>learn</em> before we can do them, we <em>learn</em> by doing them.</em>" 
+    
+      </blockquote>
+      <p>~ Aristotle</p>
+      <br>
+    </div>
+
+<div class="about_video">
       <video  width="500" height="300" autoplay loop muted controls>
         <source src="VideoCV.mp4" type="video/mp4">
-    </video>
-      </center>
+    </video> 
   </div>
 
-   <div class="about_img">
-      <center>
-      <img src="Grayson_Headshot.jpg" alt="Grayson's Headshot" width="300px" class="about_img">
-      </center>
-   </div>
-</main>
-<footer> 
+    <br><br><br>
+
+    <div class="about_button">
+      <p>Click the button below to view my resume.</p>
+      <br><br>
+      <a href="https://grmkr-4.github.io/islt_4355/G_Resume.pdf" class="resume_button">Resume>></a>
+      <br>
+    </div>
+    </main>
+
+  
+
+
+
+
+
+    <!--********************************FOOTER******************************************-->
+    <footer> 
     <pstyle="color:black;">Grayson Manalang Mueller|<a href="mailto:grmkr4@umsystem.edu">grmkr4@umsystem.edu</a>&copy;Copyright 2023 All Rights Reserved.</p>
     </footer>
-</body>
-</html>
+ 
+  </body>
+</html> 
+     
+     
+     
+     
+     
+     
