@@ -63,6 +63,12 @@ margin-bottom: 1em;
   font-weight: 400px;
 }
 
+.about_para {
+    float: left;
+    width: 70%;
+    height: auto;
+  }
+
 
 
 /**Projects Page**/
