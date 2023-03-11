@@ -15,15 +15,25 @@ body {
   font-family: 'Lora', sans-serif;
 }
 
-p, h1, h2, h3, h4, blockquote, .about_img {
-  margin: 0 250px;
-  padding: 10px;
-  border: none;
+h1 {
+  font-size: 1.75em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 1.125em;
+}
+
+p {
+  font-size: 1em;
 }
 
 /**Index/Home Page**/
 #H1 {
-  text-align: left;
+  text-align: center;
 }
 
 .home_main {
