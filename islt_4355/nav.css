@@ -11,96 +11,148 @@
 
 
 /**Header Nav**/
-nav {   /**Right Side Links**/
-  padding: 2em;
-  display: flex;
-  align-items: center;
-  background: white;
-  box-shadow: 0 0 10px gray;
-  margin-bottom: 75px;
+nav {
+    background: #FFFFFF;
+    padding: 0 15px;
+    box-shadow: 0 0 10px gray;
+    margin-bottom: 1em;
+}
+nav a {
+    color: #2b2b2b;
+    text-decoration: none;
+    padding: 5px;
+}
+.menu,
+.submenu {   
+    list-style-type: none;
+}
+.logo {
+ width: 100%;
+    padding: 7.5px 10px 7.5px 0;
+}
+.item {
+    padding: 10px;
 }
 
-nav a {  /**Link Padding and Margin**/
-  display: flex;
-  margin: 5px;
-  padding: 10px;
-  color: #808080;
-  font-weight: bold;
-  font-size: 18px;
-}
-
-a {      /**Underline to Link is removed**/
-  text-decoration: none; 
-}
-
-
-.menu {  /**Horizontal link**/
-  display: flex;
-  text-decoration: none;
-  list-style: none;
-}
-
-
-.logo {  /**Left Side Logo**/
-  flex: 1;
-  width: 250px;
-}
-
-nav a:hover {
-  color: black;
-}
-
-nav a:active { 
-  color: black;
-  text-decoration: underline;
+item:not(.button) a:hover,
+.item a:hover::after {
+    color: black;   /* Changed white to black */
 }
 
 
-/**Dropdown Nav**/
+.item:not(.button) a:hover,
+
+.item a:hover::after {
+
+    background: black;
+    color: #FFFFFF;
+
+}
+
+
+/* ********************Mobile menu****************************** */
 .menu {
-  display: flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu li a {
+    display: block;
+    padding: 15px 5px;
+}
+.menu li.subitem a {
+    padding: 15px;
+}
+.toggle {
+    order: 1;
+    font-size: 20px;
+    color: black;
 }
 
-nav li {
-  position: relative;
-  width: 100%;
-  text-align: center;
+.item {
+    order: 3;
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+.active .item {
+    display: block;
 }
 
-nav li:hover .dropdown > li {
-  display: block;
-  top: 0;
-  background: white;
+/* Submenu up from mobile screens */
+.submenu {
+    display: none;
+}
+.submenu-active .submenu {
+   display: block;
+}
+.has-submenu i {
+    font-size: 12px;
+}
+.has-submenu > a::after {
+    font-family: "Font Awesome 5 Free";
+    font-size: 12px;
+    line-height: 16px;
+    font-weight: 900; 
+    content: "\f078";
+    color: black;  /* changed white to black */
+    padding-left: 5px;
+}
+.subitem a {
+    padding: 10px 15px;
+}
+.submenu-active {
+    background-color: white;
+    border-radius: 3px;
 }
 
-.dropdown li {
-  display: none;
-  position: relative;
+
+/* Tablet menu */
+@media all and (min-width: 640px) {
+    .menu {
+        justify-content: center;
+    }
+    .logo {
+        flex: 1;
+    }
+    .toggle {
+        flex: 1;
+        text-align: right;
+        order: 2;
+    }
 }
 
-.dropdown {
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-}
-
-.dropdown li:hover {
-  display: block;
-  background: white;
-  color: black;
-}
-
-/**Footer**/
-footer {
-  background-color: light gray;
-  color: black;
-  padding: 10px;
-  text-align: right;
-  bottom: 0;
-}
-footer {
-  width: 100%;
-  height: 25px;
-  position: fixed;
+/* Desktop menu */
+@media all and (min-width: 960px) {
+    .menu {
+        align-items: flex-start;     
+        flex-wrap: nowrap;
+        background: none;
+    }
+    .logo {
+        order: 0;
+    }
+    .item {
+        order: 1;
+        position: relative;
+        display: block; 
+        width: auto;
+    }
+    
+    .submenu-active .submenu {
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 68px;
+        background: white;
+    }
+    .toggle {
+        display: none;
+    }
+    .submenu-active {
+        border-radius: 0;
+    }
+  
+    
 }
