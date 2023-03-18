@@ -21,24 +21,26 @@ Tested:March 5th, 2023
   <body class="about-body"> 
 
         <!--******************Navigation************************-->
-        <nav>
-          <div class="logo">
-            <a href="index.html"><img src="GM.png" alt="logo" height="100" width="100"></a>
-          </div>
-                <ul class="menu">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="about.html">About</a></li>
-                  <li><a href="#project.html">Projects<ion-icon name="caret-down-outline"></ion-icon></a>
-                      <ul class="dropdown">
-                          <li><a href="#">Link #1</a></li>
-                          <li><a href="#">Link #2</a></li>
-                          <li><a href="#">Link #3</a></li>
-                       </ul>
-                    </li>
-                  <li><a href="reflection.html">Reflection</a></li>
-                  <li><a href="#contact.html">Contact</a></li>
-               </ul>
-        </nav>
+            <nav>
+          <ul class="menu">
+              <li class="logo"><a href="index.html"><img src="GM.png" width="100" width="100" alt="logo"></a></li>
+              <li class="item"><a href="index.html">Home</a></li>
+              <li class="item"><a href="about.html">About</a></li>
+              <li class="item has-submenu">
+                <a tabindex="0" href="project.html">Projects</a>
+                  <ul class="submenu">
+                      <li class="subitem"><a href="#">Link #1</a></li>
+                      <li class="subitem"><a href="#">Link #2</a></li>
+                      <li class="subitem"><a href="#">Link #3</a></li>
+                  </ul>
+              </li>
+            
+              <li class="item"><a href="reflection.html">Reflection</a></li>
+              <li class="item"><a href="#contact.html">Contact</a>
+              </li>
+              <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+          </ul>
+      </nav>
     
         <!--******************HEADER************************-->
     <header>
