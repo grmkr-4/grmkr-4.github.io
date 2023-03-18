@@ -92,23 +92,28 @@ margin-bottom: 1em;
 
 /**Reflection Page**/
 .reflection_main {
-  width: 80%;
-  max-width: 1024;
   margin: 0 auto;
-  padding: 0 5em;
+  padding: 0 10%;
+
 }
 
 #Header1 {
   text-align: center;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  }
+
+  #header1 h1 {
+    font-size: 130%;
   }
 
   h4 {
-    font-size: 125%;
+    font-size: 100%;
   }
 
   .para1::first-letter  {
-  font-size: 180%;
-  color: #96714e;
+  font-size: 175%;
+  color: #004c4c;
 }
 
 .indent {
@@ -122,17 +127,27 @@ margin-bottom: 1em;
 
 
 /**Media Queries**/
+@media only screen and (min-width: 250px) {
+ 
+  #header1 {
+  font-size: 1em;
+}
 
-@media screen and (min-width: 760px)  {
+.about-main {
+  margin: 0;
+  padding: 0;
+}
+  
+  
   .about_header {
    text-align:center;
-   width: 100%
+   width: 100%;
   }
   
   .about_img {
     width: 100%;
     margin: auto;
-    margin-bottom: 5%
+    margin-bottom: 5%;
   }
  video {
     width: 100%;
@@ -141,7 +156,7 @@ margin-bottom: 1em;
   .about_para {
     margin: 0 auto;
     width: 100%;
-    padding: 0;
+    padding: 5px;
   }
 
   .about_button {
