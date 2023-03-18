@@ -123,7 +123,6 @@ margin-bottom: 1em;
 
 /**Media Queries**/
 
-
 @media screen and (min-width: 760px)  {
   .about_header {
    text-align:center;
@@ -151,4 +150,60 @@ margin-bottom: 1em;
     font-weight: 400;
     margin-bottom: 20%;
   }
+}
+
+
+/**Reflection & Home Page**/
+
+@media only screen and (min-width: 450px) {
+  
+
+  .top-bar p, h3 {
+    display: none;
+  
+  }
+
+  .about_para h1 {
+    font-size: 175%;
+   }
+
+ 
+
+   #header1 h1 {
+    font-size: 175%;
+  }
+
+  h4 {
+    font-size: 110%;
+  }
+  
+}
+
+@media only screen and (min-width: 800px ) {
+  .about_para h1 {
+    font-size: 200%;
+   }
+
+   .about_header {
+    font-size: 160%;
+   }
+  
+
+   #header1 h1 {
+    font-size: 200%;
+  }
+
+  h4 {
+    font-size: 130%;
+  }
+  #home-header {
+    font-size: 160%;
+    }
+    .greetings {
+      font-size: 175%; 
+    }
+  
+    .top-bar p, h3 { 
+      display: block;
+    }
 }
