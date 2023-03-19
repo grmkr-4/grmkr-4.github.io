@@ -50,7 +50,7 @@ item:not(.button) a:hover,
 }
 
 
-/* ********************Mobile menu****************************** */
+/**Mobile menu**/
 .menu {
     display: flex;
     flex-wrap: wrap;
@@ -96,7 +96,7 @@ item:not(.button) a:hover,
     line-height: 16px;
     font-weight: 900; 
     content: "\f078";
-    color: black;  /* changed white to black */
+    color: dark grey; 
     padding-left: 5px;
 }
 .subitem a {
