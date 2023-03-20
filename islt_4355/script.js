@@ -11,7 +11,7 @@ function toggleMenu() {
         menu.classList.add("active");
         
         // adds the close (x) icon 
-        toggle.querySelector("a").innerHTML = "<i class='fa-window-close'></i>";
+        toggle.querySelector("a").innerHTML = "<i class='fa-times-circle'></i>";
     }
 }
 /* Event Listener */
