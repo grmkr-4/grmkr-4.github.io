@@ -17,17 +17,6 @@ function toggleMenu() {
 /* Event Listener */
 toggle.addEventListener("click", toggleMenu, false);
 
-const items = document.querySelectorAll(".item");
-function toggleItem() {
-for (let item of items) {
-    if (item.querySelector(".submenu")) {
-      item.addEventListener("click", toggleItem, false);
-      item.addEventListener("keypress", toggleItem, false);
-      item.addEventListener("mouseover", toggleItem, false);
-    }   
-}
-
-
 
 
 const items = document.querySelectorAll(".item");
