@@ -46,6 +46,10 @@ p {
   padding: 2em;
 }
 
+.greetings {
+      font-size: 175%;
+      color: #e5c100;
+    }
 
 /**About Page**/
 
