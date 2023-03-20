@@ -80,6 +80,7 @@ item:not(.button) a:hover,
     display: block;
 }
 
+
 /* Submenu up from mobile screens */
 .submenu {
     display: none;
