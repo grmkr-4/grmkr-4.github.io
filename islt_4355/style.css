@@ -282,10 +282,12 @@ footer {
     list-style-position: inside;
     margin: 2rem auto;
     line-height: 1.5rem;
+    color: black;
   }
 
   .edu_details h2 {
     margin: 2rem auto;
+    color: black;
   }
 
   /* *** */
@@ -327,6 +329,7 @@ footer {
   .about_para h2,
   .edu_details h2 {
     font-family: serif;
+    color: black;
   }
 
   .top-bar,
