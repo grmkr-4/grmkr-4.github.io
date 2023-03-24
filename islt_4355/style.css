@@ -63,6 +63,12 @@ p {
  
 }
 
+.about_header {
+  text-align: center;
+  color: #e5c100;
+  margin: 3% auto;
+}
+
 .about_img {
  float: center;
  width: auto;
