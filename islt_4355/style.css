@@ -132,7 +132,7 @@ margin-bottom: 1em;
 footer {
   width: 100%;
   height: auto;
-  background-image: url(img/'light-gray-concrete-wall.jpg');
+  background-image: url('light-gray-concrete-wall.jpg');
   background-repeat: repeat;
   color: black;
   text-align: left;
