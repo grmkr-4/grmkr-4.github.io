@@ -135,7 +135,7 @@ footer {
   background-image: url(img/'light-gray-concrete-wall.jpg');
   background-repeat: repeat;
   color: black;
-  text-align: center;
+  text-align: left;
   padding: 2rem 3rem;
   top: 0;
 
@@ -151,64 +151,48 @@ footer {
 }
 
 /**Media Queries**/
-@media only screen and (min-width: 250px) {
- 
-  #header1 {
-  font-size: 1em;
-}
-
-.about-main {
-  margin: 0;
-  padding: 0;
-}
-  
-  
-  .about_header {
-   text-align:center;
-   width: 100%;
-  }
-  
-  .about_img {
-    width: 100%;
-    margin: auto;
-    margin-bottom: 5%;
-  }
- video {
-    width: 100%;
-  }
-
-  .about_para {
-    margin: 0 auto;
-    width: 100%;
-    padding: 5px;
-  }
-
-  .about_button {
-    margin: 0 auto;
-    text-align: center;
-    font-weight: 400;
-    margin-bottom: 20%;
-  }
-}
 
 
 /**Reflection & Home Page**/
 
 @media only screen and (min-width: 450px) {
   
-
-  .top-bar p, h3 {
-    display: none;
-  
+  .about_img {
+    width: 75%;
+    height: auto;
   }
 
-  .about_para h1 {
-    font-size: 175%;
-   }
 
- 
+  .goal h2 {
+    font-size: 2rem;
+  }
 
-   #header1 h1 {
+  .goal p {
+    margin-right: 20%;
+  }
+
+  .goalButton {
+    min-width: 120px;
+    padding: 10px 25px;
+  }
+
+  .edu_details {
+    text-align: left;
+    list-style-position: inside;
+    margin: 2rem auto;
+    line-height: 2rem;
+  }
+
+  .edu_details h2 {
+    margin: 2rem auto;
+  }
+
+  /* *** */
+  .top-bar p, h3 {
+    display: none;
+  }
+
+  #header1 h1 {
     font-size: 175%;
   }
 
@@ -219,31 +203,117 @@ footer {
 }
 
 @media only screen and (min-width: 800px ) {
-  .about_para h1 {
-    font-size: 200%;
-   }
+ .about_img {
+    float: right;
+    width: 40%;
+    height: auto;
+    margin-left: 5%;
+  }
 
-   .about_header {
-    font-size: 160%;
-   }
-  
+  .about_para h2 {
+    padding-top: 10%;
+  }
 
-   #header1 h1 {
+  .about_para p, .about_para blockquote {
+    text-align: left;
+  }
+
+  .about_para p {
+    line-height: 2rem;
+    padding-bottom: 5%;
+  }
+
+  .about_para .quote-name {
+    text-align: center;
+  }
+
+  .about_video video {
+    width: 50%;
+    height: auto;
+    margin-top: 10%;
+  }
+
+  .about_video {
+    clear: both;
+  }
+
+  .goal h2 {
+    font-size: 2.5rem;
+  }
+
+  .goal p {
+    margin-right: 50%;
+  }
+
+  .goalButton {
+    min-width: 150px;
+    padding: 10px 25px;
+  }
+
+  .edu_details {
+    clear: both;
+    list-style-position: inside;
+    margin: 2rem auto;
+    line-height: 1.5rem;
+  }
+
+  .edu_details h2 {
+    margin: 2rem auto;
+  }
+
+  /* *** */
+  #header1 h1 {
     font-size: 200%;
   }
 
   h4 {
     font-size: 130%;
   }
+
   #home-header {
     font-size: 160%;
     }
-    .greetings {
-      font-size: 175%;
-      color: #e5c100;
-    }
+
+  .greetings {
+    font-size: 175%;
+  }
   
-    .top-bar p, h3 { 
-      display: block;
-    }
+  .top-bar p, h3 {
+    display: block;
+  }
+
+}
+
+/* Medai Query (Print)*/
+@media print {
+  * {
+    background: transparent !important;
+    color: black !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  .about_header {
+    font-family: kaushan, serif;
+  }
+
+  .about_para h2,
+  .edu_details h2 {
+    font-family: serif;
+  }
+
+  .top-bar,
+  .menu,
+  .about_img,
+  .about_video,
+  .about_button {
+    display: none;
+  }
+
+  .about_header,
+  .about_main {
+    margin: 1cm 2.54cm;
+    text-align: center;
+  }
+
 }
