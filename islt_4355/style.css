@@ -160,6 +160,19 @@ footer {
   margin-right: 10px;
 }
 
+.footer-icon {
+  width: 30px;
+  height: auto;
+  padding-right: 5px;
+  vertical-align: middle; 
+  margin-right: 10px;
+}  
+
+.footer-icon:hover {
+  width: 50px;
+  transition:width 0.25s linear 0s; 
+}
+
 /**Media Queries**/
 
 
