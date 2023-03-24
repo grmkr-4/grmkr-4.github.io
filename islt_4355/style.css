@@ -170,7 +170,7 @@ footer {
 
 .footer-icon:hover {
   width: 50px;
-  transition:width 0.25s linear 0s; 
+  transition:width 0.30s linear 0s; 
 }
 
 /**Media Queries**/
