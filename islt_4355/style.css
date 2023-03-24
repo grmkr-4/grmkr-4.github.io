@@ -127,8 +127,28 @@ margin-bottom: 1em;
 /**Contact Page**/
 
 
+/*Footer*/
 
+footer {
+  width: 100%;
+  height: auto;
+  background-image: url(img/'light-gray-concrete-wall.jpg');
+  background-repeat: repeat;
+  color: white;
+  text-align: center;
+  padding: 2rem 3rem;
+  top: 0;
 
+}
+
+.phone-icon, 
+.email-icon {
+  width: 30px;
+  height: auto;
+  padding-right: 5px;
+  vertical-align: middle;
+  margin-right: 10px;
+}
 
 /**Media Queries**/
 @media only screen and (min-width: 250px) {
