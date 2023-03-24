@@ -206,10 +206,12 @@ footer {
     list-style-position: inside;
     margin: 2rem auto;
     line-height: 2rem;
+    color: black;
   }
 
   .edu_details h2 {
     margin: 2rem auto;
+    color: black;
   }
 
   /* *** */
