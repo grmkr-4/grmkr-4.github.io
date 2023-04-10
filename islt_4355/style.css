@@ -108,6 +108,102 @@ margin-bottom: 1em;
 
 
 /**Projects Page**/
+.project-main{
+  margin: 0;
+  padding: 0;
+}
+.project-header {
+  text-align: center;
+font-size: 110%;
+  margin: 3% auto 8%;
+}
+
+
+.project-main { 
+  width: 90%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+
+.text {
+  margin-bottom: 10%;
+  text-align: center;
+}
+
+.goal1 {
+  margin-top: 10%;
+}
+
+.goal {
+  margin: 3% auto;
+}
+
+.goal h2 {
+  font-size: 1.5rem;
+  /*margin: 1rem auto;*/
+  margin-left: 5%;
+}
+.goal h4{
+  font-size: 105%;
+}
+
+
+.subheading {
+  font-size: 100%;
+}
+
+
+.line-2 {
+  margin: 0 5%;
+  margin-bottom: 10%;
+  margin-top: 15%;
+}
+
+
+.goal p {
+  margin-right: 5%;
+  margin-left: 5%;
+  line-height: 2rem;
+  padding-bottom: 3px;
+}
+
+.last {
+  margin-bottom: 3%;
+}
+
+
+.button {   
+  display: inline-block;
+  border-radius: 4px;
+  color: white;
+  background-color: #004c4c;
+  font-size: 1rem;
+  padding: 5px 25px;
+  text-align: center;
+  font-size: 100%;
+  width: 150px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 30%;
+}
+
+#myBtn {
+  font-size: 100%;
+  padding: 3%;
+}
+
+
+
+
+
+h4{
+  text-align: left;
+  margin-right: 5%;
+  margin-left: 5%;
+
+}
 
 
 /**Reflection Page**/
