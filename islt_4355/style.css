@@ -119,7 +119,7 @@ table {
 
 
 thead th {
-  background-color: #004c4c;
+  background-color: ##e5c100;
   color: white;
   font-size: 100%;
   font-weight: bold;
@@ -142,7 +142,7 @@ tfoot td {
   font-weight: bold;
   text-align: right;
   font-size: 100%;
-  background-color: #004c4c;
+  background-color: #e5c100;
   color: white;
   box-shadow: inset 0 2px;
 }
