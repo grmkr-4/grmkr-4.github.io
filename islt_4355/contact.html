@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    
+<!--
+Title: Contact page
+Use: For people to reach out to me.
+Author: Grayson Manalang Mueller
+School/Term: Spring 2023
+Developed: 4/14/2023
+Tested: April 14, 2023 
+-->
+  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact Page</title>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="nav.css" href="nav.css">
+<link href="style.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+<script src="script.js" defer></script>
+</head>
+  <body>
+   
+    <!--**MAIN NAV**-->
+      <nav>
+        <ul class="menu">
+            <li class="logo"><a href="index.html"><img src="GM.png" width="100" height="100" alt="logo"></a></li>
+            <li class="item"><a href="index.html">Home</a></li>
+            <li class="item"><a href="about.html">About</a></li>
+            <li class="item has-submenu">
+                <a tabindex="0" href="projects.html">Projects</a>
+                <ul class="submenu">
+                    <li class="subitem"><a href="#">Experience #1</a></li>
+                    <li class="subitem"><a href="#">Experience #2</a></li>
+                    <li class="subitem"><a href="#">Experience #3</a></li>
+                </ul>
+            </li>
+          
+            <li class="item"><a href="reflection.html">Reflection</a></li>
+            <li class="item"><a href="contact.html" class="current-page">Contact</a>
+            </li>
+            <li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>
+        </ul>
+    </nav>
+
+
+    <!--******************MAIN***********************-->
+
+        <!--************************CONTACT FORM***********************************-->
+
+  <h1 class="contact-h2">Feel Free to Reach Out!</h1>
+
+  <div class="contact_container">
+    <form action="mailto:ashleyphillips1@proton.me?Subject=Portfolio/Professional%20Website%20Contact!%20" method="POST" enctype="text/plain">
+      <label for="fname">First Name</label>
+      <input id="fname" type="text" name="fname" required autofocus>
+      <label for="lname">Last Name</label>
+      <input id="lname" type="text" name="lname" required>
+      <label for="email">Email Address</label>
+      <input id="email" type="email" name="email" required><br>
+      <label for="message">Text Message</label>
+      <textarea id="message" name="message"></textarea>
+      <input type="submit" value="Submit">
+    </form>
+  </div>
+
+    <!--**Socials**-->
+ <div class="social-links">
+  <a href="https://www.linkedin.com/in/grayson-mueller-b45a1818a/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a>
+</div>
+
+   <!--**FOOTER**-->
+     <footer>
+      <p><img src="iconphone.png" alt="phone icon" class="footer-icon">
+      <strong>Phone:</strong> 1+888-888-8888</p>
+      <p><img src="iconemail.png" alt="email icon" class="footer-icon">
+      <strong>email:</strong>grmkr4@missouri.edu</p>
+      <p>Grayson Manalang Mueller|<a href="mailto:grmkr4@umsystem.edu">grmkr4@umsystem.edu</a>&copy;Copyright 2023 All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>
