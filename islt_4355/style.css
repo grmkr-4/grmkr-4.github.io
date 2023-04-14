@@ -105,6 +105,72 @@ margin-bottom: 1em;
     color: black;
   }
 
+/**TABLE**/
+.about_table-h2 {
+ text-align: center;
+}
+
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+
+thead th {
+  background-color: #004c4c;
+  color: white;
+  font-size: 100%;
+  font-weight: bold;
+  box-shadow: inset 0 -2px;
+  padding: 5px;
+ 
+}
+
+tbody {
+  color: black;
+  font-size: 100%;
+  padding: 5px;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #ddd;
+}
+
+tfoot td {
+  font-weight: bold;
+  text-align: right;
+  font-size: 100%;
+  background-color: #004c4c;
+  color: white;
+  box-shadow: inset 0 2px;
+}
+
+table > tr:hover,
+tbody tr:hover {
+  background: black;
+  color: white;
+}
+
+figcaption,
+.visible-hidden {
+  clip: rect(1px, 1px, 1px, 1px);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+}
+
+.visible-hidden:focus {
+    clip: auto;
+    height: auto;
+    overflow: auto;
+    position: absolute;
+    width: auto;
+} 
+
 
 
 /**Projects Page**/
