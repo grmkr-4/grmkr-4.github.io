@@ -171,6 +171,26 @@ figcaption,
     width: auto;
 } 
 
+table {    
+    margin: 0 auto;
+    max-width: 1000px;
+  }
+
+  .about_table-h2 {
+    margin-left: 18%;
+  }
+
+ table {    
+    margin: 0 auto;
+  }
+  
+
+  .about_table-h2 {
+   text-align: center;
+  margin-right: 20%;
+  }
+
+
 
 
 /**Projects Page**/
