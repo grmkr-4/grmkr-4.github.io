@@ -292,6 +292,13 @@ h4{
 
 }
 
+.project-main { 
+  width: 100%;
+}
+.project-header {
+font-size: 175%;
+}
+
 
 /**Reflection Page**/
 .reflection_main {
