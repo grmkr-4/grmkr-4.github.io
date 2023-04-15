@@ -73,6 +73,11 @@ h1, h2, h3, h4 {
   margin: 3% auto;
 }
 
+.about_h2 { 
+text-align: center;
+font-size: 200%;
+}
+
 .about_img {
  float: center;
  width: auto;
@@ -82,6 +87,17 @@ h1, h2, h3, h4 {
  padding-top: 1%;
 margin-top: 1rem;
 margin-bottom: 1em;
+}
+
+.about_para {
+  margin: 1rem auto;
+  line-height: 2rem;
+}
+
+.about_video video {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
 }
 
 .resume_button {
