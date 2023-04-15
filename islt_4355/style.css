@@ -636,3 +636,10 @@ input[type=submit]:hover {
   font-size: 400%;
   transition:width 0.3s linear 0s;
 }
+
+@media only screen and (min-width: 1400px ) {
+.contact_container {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+}
