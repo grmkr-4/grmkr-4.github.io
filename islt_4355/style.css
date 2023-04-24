@@ -111,12 +111,9 @@ font-size: 200%;
   font-weight: 400;
 }
 
-.about_para {
-    float: left;
-    width: 70%;
-    height: auto;
-    font-family: 'Lora', sans-serif;
-    color: black;
+
+  .about_para h2 {
+    padding-top: 10%;
   }
 
 /**TABLE**/
