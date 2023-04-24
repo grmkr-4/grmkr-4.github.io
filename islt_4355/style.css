@@ -62,9 +62,9 @@ h1, h2, h3, h4 {
 /**About Page**/
 
 .about-main {
-  margin: 0 auto;
-  padding: 0 10%;
- 
+  width: 80%;
+  margin: 1rem auto;
+  text-align: left;
 }
 
 .about_header {
@@ -79,14 +79,12 @@ font-size: 200%;
 }
 
 .about_img {
- margin: auto;
- width: auto;
- height: auto;
- max-width: 400px;
- min-width: 200px;
- padding-top: 1%;
-margin-top: 1rem;
-margin-bottom: 1em;
+  width: 100%;
+  height: auto;
+  padding-top: 5%;
+  margin: 2rem auto;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 
 .about_para {
