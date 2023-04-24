@@ -97,7 +97,7 @@ item:not(.button) a:hover,
     line-height: 16px;
     font-weight: 900; 
     content: "\f078";
-    color: dark grey; 
+    color: black; 
     padding-left: 5px;
 }
 .subitem a {
