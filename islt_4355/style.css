@@ -661,24 +661,3 @@ input[type=submit]:hover {
   margin-right: 30%;
 }
 }
-
-
-/* Styles for website counter container */
-.website-counter {
-  background-color: #ff4957;
-  height: 50px;
-  width: 80px;
-  color: white;
-  font-weight: 700;
-  font-size: 25px;
-
-}
-
-/* Styles for reset button */
-#reset {
-  background-color: #008cba;
-  cursor: pointer;
-  font-size: 18px;
-  color: white;
-  border: 0;
-}
